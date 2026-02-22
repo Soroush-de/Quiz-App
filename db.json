@@ -1,0 +1,357 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "In the TV show &quot;Mad Men&quot;, what was Donald Draper&#039;s birthname?",
+      "correct_answer": "Richard &quot;Dick&quot; Whitman",
+      "incorrect_answers": [
+        "Donald Draper",
+        "John Ashbury",
+        "Michael &quot;Mikey&quot; Wilhelm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "What round is a classic AK-47 chambered in?",
+      "correct_answer": "7.62x39mm",
+      "incorrect_answers": [
+        "7.62x51mm",
+        "5.56x45mm",
+        "5.45x39mm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these roles in Town of Salem is mafia?",
+      "correct_answer": "Disguiser",
+      "incorrect_answers": [
+        "Escort",
+        "Lookout",
+        "Transporter"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "A scalene triangle has two sides of equal length.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Portal 2, the iconic character GLaDOS is turned into:",
+      "correct_answer": "A potato",
+      "incorrect_answers": [
+        "A tomato",
+        "A lemon",
+        "An apple"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "The metric prefix &quot;atto-&quot; makes a measurement how much smaller than the base unit?",
+      "correct_answer": "One Quintillionth",
+      "incorrect_answers": [
+        "One Billionth",
+        "One Quadrillionth",
+        "One Septillionth"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "Tigers have one colour of skin despite the stripey fur.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Who is Manchester United&#039;s leading appearance maker?",
+      "correct_answer": "Ryan Giggs",
+      "incorrect_answers": [
+        "David Beckham",
+        "Wayne Rooney",
+        "Eric Cantona"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Banjo-Kazooie&quot; originally started its development as a totally different game for the SNES under which codename?",
+      "correct_answer": "Project Dream",
+      "incorrect_answers": [
+        "Project Ukulele",
+        "Project Land",
+        "Project BK"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Who did Steven Gerrard win the Champions League with?",
+      "correct_answer": "Liverpool",
+      "incorrect_answers": [
+        "Real Madrid",
+        "Chelsea",
+        "Man City"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game &quot;Splatoon&quot;, the playable characters were originally going to be rabbits instead of squids.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "Which buzzword did Apple Inc. use to describe their removal of the headphone jack?",
+      "correct_answer": "Courage",
+      "incorrect_answers": [
+        "Innovation",
+        "Revolution",
+        "Bravery"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the character you play as in Yume Nikki?",
+      "correct_answer": "Madotsuki",
+      "incorrect_answers": [
+        "Masada",
+        "Uboa",
+        "Poniko"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What vault in the video game &quot;Fallout 3&quot; is the home of multiple clones named Gary?",
+      "correct_answer": "Vault 108",
+      "incorrect_answers": [
+        "Vault 101",
+        "Vault 87",
+        "Vault 21"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "What are the cylinder-like parts that pump up and down within the engine?",
+      "correct_answer": "Pistons",
+      "incorrect_answers": [
+        "Leaf Springs",
+        "Radiators",
+        "ABS"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "How does the character Dragowizard, Qinus Axia&#039;s from the anime &quot;Buddyfight&quot; differ between the Japanese and English dubs?",
+      "correct_answer": "Different Gender",
+      "incorrect_answers": [
+        "Different Body Proportions",
+        "Different Backstory",
+        "Different Appearance"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The Great Wall of China is visible from the moon.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who is One Punch Man voiced by in the Japanese version.",
+      "correct_answer": "Makoto Furukawa",
+      "incorrect_answers": [
+        "Zach Aguilar",
+        "Kaito Ishikawa",
+        "Max Mittelman "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following games was NOT included in Valve&#039;s Orange Box?",
+      "correct_answer": "Counter-Strike",
+      "incorrect_answers": [
+        "Portal",
+        "Half-Life 2: Episode Two",
+        "Team Fortress 2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the name of the Canadian national anthem?",
+      "correct_answer": "O Canada",
+      "incorrect_answers": [
+        "O Red Maple",
+        "Leaf-Spangled Banner",
+        "March of the Puck Drop"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Which famous rapper is featured in Jack &Uuml; (Skrillex and Diplo)&#039;s 2015 single called &quot;Febreze&quot;?",
+      "correct_answer": "2 Chainz",
+      "incorrect_answers": [
+        "Kendrick Lamar",
+        "Future",
+        "Fatman Scoop"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Which of these Roman gods doesn&#039;t have a counterpart in Greek mythology?",
+      "correct_answer": "Janus",
+      "incorrect_answers": [
+        "Vulcan",
+        "Juno",
+        "Mars"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Before becoming the Autobot leader, Optimus Prime was known by what name on Cybertron?",
+      "correct_answer": "Orion Pax",
+      "incorrect_answers": [
+        "Long Haul",
+        "P-138",
+        "Teletran-1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Valve Corporation is an American video game developer located in which city?",
+      "correct_answer": "Bellevue, Washington",
+      "incorrect_answers": [
+        "Austin, Texas",
+        "Seattle, Washington",
+        "San Francisco, California"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What continent is the country Lesotho in?",
+      "correct_answer": "Africa",
+      "incorrect_answers": [
+        "Asia",
+        "South America",
+        "Europe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "How many French Open&#039;s did Bj&ouml;rn Borg win?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "4",
+        "9",
+        "2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Left 4 Dead, what is the name of the Special Infected that is unplayable in Versus mode?",
+      "correct_answer": "The Witch",
+      "incorrect_answers": [
+        "The Tank",
+        "The Smoker",
+        "The Spitter"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "While Apple was formed in California, in which western state was Microsoft founded?",
+      "correct_answer": "New Mexico",
+      "incorrect_answers": [
+        "Washington",
+        "Colorado",
+        "Arizona"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "Snakes and lizards are known to flick their tongue, this behavior is to?",
+      "correct_answer": "Capture scent particles",
+      "incorrect_answers": [
+        "Taste the sweet air",
+        "Threaten other species",
+        "Attract female mates"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The original mascot of the popular Nintendo game, &quot;Splatoon&quot; was going to be...",
+      "correct_answer": "Mario",
+      "incorrect_answers": [
+        "Inklings",
+        "Octolings",
+        "Zelda"
+      ]
+    }
+  ]
+}
