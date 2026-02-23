@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="../global.css">
     <link rel="stylesheet" href="./game.css">
     <title>Quiz App | Play</title>
 </head>
@@ -17,25 +17,26 @@
         <div class="header">
             <div>
                 <p>Question Number:</p>
-                <span id="question-number">1</span>
+                <span id="question-number"></span>
             </div>
             <div>
                 <p>Score</p>
                 <span id="Score">0</span>
             </div>
         </div>
-        <div id="question-box">
-            <h3 class="question-test">
-                question text
+        <div id="question-box" >
+            <h3 id="question-text">
+                
             </h3>
-            <button class="answer-text">1</button>
-            <button class="answer-text">2</button>
-            <button class="answer-text">3</button>
-            <button class="answer-text">4</button>
+            <div id="answers">
+            </div>
         </div>
         <button id="finish-button">Finish</button>
+        <button id="next-button">Next</button>
+
     </div>
     <script src="./game.js" type="module"></script>
+    <script type="module" src="../Helper/helper.js"></script>
 </body>
 
 </html>
