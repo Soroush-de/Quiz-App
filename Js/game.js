@@ -7,7 +7,9 @@ const questionText = document.getElementById("question-text");
 let questionNumber = document.getElementById("question-number");
 let score = document.getElementById("Score");
 let arrayOfButtons = [];
-const URl = "http://localhost:3000/results";
+
+let URl = JSON.parse(localStorage.getItem("difficulty"));
+console.log(URl);
 let formattedData = null;
 let questionIndex = 0;
 let correctAnswer = null;
@@ -42,7 +44,7 @@ const start = () => {
 
 const showQuestion = () => {
   questionNumber.textContent = questionIndex + 1;
-  const { question, answers, correctAnswerIndex, type } =
+  let { question, answers, currectAnswerIndex, type } =
     formattedData[questionIndex];
 
   questionText.innerHTML = question;
@@ -72,6 +74,7 @@ const showQuestion = () => {
       <button id="answer-text">${answers[0]}</button>
       <button id="answer-text2">${answers[1]}</button>
       `;
+
     const answerText = document.getElementById("answer-text");
     const answerText2 = document.getElementById("answer-text2");
     arrayOfButtons = [];
@@ -80,6 +83,14 @@ const showQuestion = () => {
     console.log(arrayOfButtons);
     answerText.addEventListener("click", (event) => checkAnswer(event, 0));
     answerText2.addEventListener("click", (event) => checkAnswer(event, 1));
+  }
+  console.log({ type, currectAnswerIndex });
+  if (type == "boolean" && currectAnswerIndex == 2) {
+    console.log(type);
+    currectAnswerIndex = 0;
+  } else if (type == "boolean" && currectAnswerIndex == 3) {
+    console.log(currectAnswerIndex);
+    currectAnswerIndex = 1;
   }
 };
 const counter = () => {
@@ -93,20 +104,20 @@ const counter = () => {
 };
 
 const checkAnswer = (event, index) => {
-  const currentQ=formattedData[questionIndex]
-  arrayOfButtons.forEach((item)=>item.disabled=true)
+  const currentQ = formattedData[questionIndex];
+  arrayOfButtons.forEach((item) => (item.disabled = true));
   const currectAnswer = formattedData.map((item) => item.currectAnswerIndex);
   // console.log(index);
   let mmm = currentQ.currectAnswerIndex;
 
   if (index == currectAnswer[questionIndex]) {
     score.textContent = score.textContent;
-    score.textContent = +score.textContent + 1;
+    score.textContent = +score.textContent + 10;
     event.target.style.backgroundColor = "#5bd7bc";
     event.target.style.border = "2px solid #5bd7bc";
   } else {
     event.target.style.backgroundColor = " #fe6681";
-    event.target.style.border = "2px solid  #fe6681";
+    event.target.style.border = "2px solid  #53484a";
     let rightAnswer = arrayOfButtons[mmm];
     rightAnswer.style.backgroundColor = "#5bd7bc";
     rightAnswer.style.border = "2px solid #5bd7bc";
@@ -115,3 +126,7 @@ const checkAnswer = (event, index) => {
 };
 window.addEventListener("load", fetchData);
 nextBtn.addEventListener("click", counter);
+finishBtn.addEventListener("click", () => {
+  localStorage.setItem("score", JSON.stringify(score.textContent));
+  window.location.assign("../end.html");
+});

@@ -1,0 +1,292 @@
+{
+  "results": [
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The two atomic bombs dropped on Japan by the United States in August 1945 were named &#039;Little Man&#039; and &#039;Fat Boy&#039;.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which of these English football clubs is based in Liverpool?",
+      "correct_answer": "Everton",
+      "incorrect_answers": ["West Ham United", "Crystal Palace", "Arsenal"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which of these NHL teams have never moved since their inception?",
+      "correct_answer": "St. Louis Blues",
+      "incorrect_answers": [
+        "New Jersey Devils",
+        "Carolina Hurricanes",
+        "Dallas Stars"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "What is the real name of the &quot;Master Of Magnetism&quot; Magneto?",
+      "correct_answer": "Max Eisenhardt",
+      "incorrect_answers": [
+        "Charles Xavier",
+        "Pietro Maximoff",
+        "Johann Schmidt"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The vapor produced by e-cigarettes is actually water.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "&quot;Santa Claus&quot; is a variety of melon.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The city of Rockport is featured in which of the following video games?",
+      "correct_answer": "Need for Speed: Most Wanted (2005)",
+      "incorrect_answers": [
+        "Infamous 2",
+        "Saints Row: The Third",
+        "Burnout Revenge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, what is the name of Samantha Maxis&#039; dog?",
+      "correct_answer": "Fluffy",
+      "incorrect_answers": ["Baxter", "Fido", "Henry"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of Joel&#039;s daughter in the game, &quot;The Last of Us&quot;? ",
+      "correct_answer": "Sarah",
+      "incorrect_answers": ["Ellie", "Tess", "Marlene"]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Sugar contains fat.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    }
+  ],
+  "results1": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who created the 2011 Video Game &quot;Minecraft&quot;?",
+      "correct_answer": "Markus Persson",
+      "incorrect_answers": [
+        "Jens Bergensten",
+        "Daniel Rosenfeld",
+        "Carl Manneh"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "A Saxophone is a brass instrument.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the official language in Liechtenstein?",
+      "correct_answer": "German",
+      "incorrect_answers": ["French", "English", "Italian"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+      "correct_answer": "Earth",
+      "incorrect_answers": ["Venus", "Mars", "Uranus"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the capital of the US State of New York?",
+      "correct_answer": "Albany",
+      "incorrect_answers": ["Buffalo", "New York", "Rochester"]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The Lego Group was founded in 1932.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "By definition, where does an abyssopelagic animal live?",
+      "correct_answer": "At the bottom of the ocean",
+      "incorrect_answers": [
+        "In the desert",
+        "On top of a mountain",
+        "Inside a tree"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is a class in the game &quot;Hearthstone&quot;?",
+      "correct_answer": "Priest",
+      "incorrect_answers": ["Sage", "Cleric", "Monk"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "The LS7 engine is how many cubic inches?",
+      "correct_answer": "427",
+      "incorrect_answers": ["346", "364", "376"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In the anime Noragami who is one of the main protagonists?",
+      "correct_answer": "Yukine",
+      "incorrect_answers": ["Karuha", "Mineha", "Mayu"]
+    }
+  ],
+  "results2": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Diablo lore, this lesser evil spawned from one of the seven heads of Tathamet, and was known as the Maiden of Anguish.",
+      "correct_answer": "Andariel",
+      "incorrect_answers": ["Valla", "Malthael", "Kashya"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the victim mentioned in the second KG-8 incident, in Ace attorney Investigations, Case 4?",
+      "correct_answer": "Deid Mann",
+      "incorrect_answers": ["Frank Sahwit", "Shey De Killer", "Raymond Shields"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Comics",
+      "question": "Which of the following rings from the DC Comics&#039; &quot;Lantern Corps&quot; are classified as Parasitic?",
+      "correct_answer": "Indigo (Compassion)",
+      "incorrect_answers": [
+        "Green (Willpower)",
+        "White (Life)",
+        "Yellow (Fear)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "According to Toby Fox, what was the method to creating the initial tune for Megalovania?",
+      "correct_answer": "Singing into a Microphone",
+      "incorrect_answers": [
+        "Playing a Piano",
+        "Using a Composer Software",
+        "Listened to birds at the park"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Who won the 1998 Daytona 500?",
+      "correct_answer": "Dale Earnhardt",
+      "incorrect_answers": ["John Anderson", "Jeff Gordon", "Michael Walltrip"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "In Youtuber Jerma985&#039;s 2014 film &quot;Rat Movie: Mystery of the Mayan Treasure,&quot; who is the man who tries to steal the Mayan Treasure?",
+      "correct_answer": "Dick Dastardly Richards",
+      "incorrect_answers": [
+        "Gabe &quot;The Glue Man&quot; Degrossi",
+        "Bootleg Duck Dynasty Byeah Batman",
+        "Demon Lord Zeraxos"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "Which member of the Wu-Tang Clan had only one verse in their debut album Enter the Wu-Tang (36 Chambers)?",
+      "correct_answer": "Masta Killa",
+      "incorrect_answers": ["Method Man", "Inspectah Deck", "GZA"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which of the following is an existing family in &quot;The Sims&quot;?",
+      "correct_answer": "The Goth Family",
+      "incorrect_answers": [
+        "The Family",
+        "The Simoleon Family",
+        "The Proud Family"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "In Magic: The Gathering, what card&#039;s flavor text is &quot;Catch!&quot;?",
+      "correct_answer": "Lava Axe",
+      "incorrect_answers": [
+        "Stone-Throwing Devils",
+        "Ember Shot",
+        "Throwing Knife"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What city is known as the Rose Capital of the World?",
+      "correct_answer": "Tyler, Texas",
+      "incorrect_answers": [
+        "San Diego, California",
+        "Miami, Florida",
+        "Anaheim, California"
+      ]
+    }
+  ]
+}

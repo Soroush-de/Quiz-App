@@ -4,9 +4,13 @@ const mediumBtn = document.getElementById("medium");
 const randomBtn = document.getElementById("random");
 
 const difficulty = {
-  level: "medium",
+  level: "http://localhost:3000/results",
 };
-const randomArray = ["easy", "medium", "hard"];
+const randomArray = [
+  "http://localhost:3000/results",
+  "http://localhost:3000/results1",
+  "http://localhost:3000/results2",
+];
 
 const randomFunction = (e) => {
   e.preventDefault();
@@ -16,39 +20,42 @@ const randomFunction = (e) => {
     return Math.floor(Math.random() * (max - min + 1) + min);
   };
   const choosenOne = randomArray[randomNumber(0, 2)];
-  localStorage.clear();
-  localStorage.setItem("difficulty", choosenOne);
+  localStorage.removeItem("difficulty");
+  localStorage.setItem("difficulty", JSON.stringify(choosenOne));
   difficulty.level = choosenOne;
   console.log(difficulty.level);
+  window.location.assign("../game.html");
 };
 
 const easyLevel = (e) => {
   e.preventDefault();
-  difficulty.level = "easy";
-  localStorage.clear();
-  localStorage.setItem("difficulty", difficulty.level);
+  localStorage.removeItem("difficulty");
+  difficulty.level = "http://localhost:3000/results1";
+  localStorage.setItem("difficulty", JSON.stringify(difficulty.level));
   console.log("Difficulty:", difficulty.level);
+  window.location.assign("../game.html");
 };
 
 const mediumLevel = (e) => {
   e.preventDefault();
-  difficulty.level = "medium";
-  localStorage.clear();
-  localStorage.setItem("difficulty", difficulty.level);
+  localStorage.removeItem("difficulty");
+  difficulty.level = "http://localhost:3000/results";
+  localStorage.setItem("difficulty", JSON.stringify(difficulty.level));
   console.log("Difficulty:", difficulty.level);
+  window.location.assign("../game.html");
 };
 
 const hardLevel = (e) => {
   e.preventDefault();
-  difficulty.level = "hard";
-  localStorage.clear();
-  localStorage.setItem("difficulty", difficulty.level);
+  localStorage.removeItem("difficulty");
+  difficulty.level = randomArray[2];
+  localStorage.setItem("difficulty", JSON.stringify(difficulty.level));
 
   console.log("Difficulty:", difficulty.level);
+  window.location.assign("../game.html");
 };
 
 easyBtn?.addEventListener("click", easyLevel);
 mediumBtn?.addEventListener("click", mediumLevel);
 hardBtn?.addEventListener("click", hardLevel);
 randomBtn.addEventListener("click", randomFunction);
-export default difficulty;
